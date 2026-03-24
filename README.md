@@ -1,12 +1,11 @@
 # agrivoltaics_in_ri
 Yale EDS Certificate Capstone 2025
 
+# Question Being Addressed
 Which municipalities in Rhode Island, based on their available agricultural land, exhibit the greatest potential for successful Agrivoltaics (AV) adoption in terms of simultaneously maximizing local food production (e.g., specific high-value crops or animal grazing) and diversifying farmer revenue streams through energy streams? 
 
-# Questions to be Answered
--	What is the total potential of available agricultural land in each municipality, which can be measured by acreage of unprotected agricultural land that is suitable for large scale solar development?
--	How do the average annual revenues per acre of US farms with existing agrivoltaics systems compare to similar, conventional farms, considering crop sales, energy sales, and installation/operational costs?
--	How would the adoption of Agrivoltaics impact the total municipal renewable energy generation capacity and what percentage of local energy demand could this supply?
+# Summary Statement
+This project evaluates Rhode Island agrivoltaic suitability using a Multi-Criteria Decision Analysis. By integrating LiDAR-derived slope data, 2020 land-use vectors, and economic plot-size thresholds, the model identifies optimal development zones. Findings reveal Middletown as the premier site for utility-scale efficiency, while South Kingstown offers the greatest total capacity.
 
 
 # Built With
