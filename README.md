@@ -1,4 +1,4 @@
-# Agrivoltaics in Rhode Island: A Dual-Use Strategy for Farmland Preservation
+# The Technical Potential of Agrivoltaics in Rhode Island
 Yale Environmental Data Science Certificate | Capstone 2025-26
 
 ## The Issue: 
