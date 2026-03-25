@@ -15,6 +15,11 @@ What is the technical potential of agrivoltaics in Rhode Island as a dual-use st
     2. What are the top seven towns with the greatest agricultural capacity and determine which have the most suitable             agricultural land cover and slope grade for solar and agricultural dual use?
     4. Which town holds the greatest potential?
 
+## Audience
+- State Policy Makers
+- Town Planners
+- Farms and Solar Developers
+
 ## Data Sources
 All data pulled from Rhode Island GIS (https://www.rigis.org/)
 - LiDAR-Derived Slope Data (2011): Raster 1-M elevation data
