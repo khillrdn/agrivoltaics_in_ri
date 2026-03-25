@@ -17,8 +17,8 @@ What is the technical potential of agrivoltaics in Rhode Island as a dual-use st
 
 ## Data Sources
 All data pulled from Rhode Island GIS (https://www.rigis.org/)
-    - LiDAR-Derived Slope Data (2011): Filtering for terrain stability and solar tracking efficiency.
-    - Land Use/Cover Data (2020): Identifying active and prime agricultural soils.
+    - LiDAR-Derived Slope Data (2011): Raster 1-M elevation data 
+    - Land Use/Cover Data (2020): Vector dataset. Filtering for four compatible agriculture types (idle ag, cropland, pasture, and orchard/vineyard)
     - Municipality Boundaries (1997): Vector data determining town lines
 
 ## Methodology: Multi-Criteria Decision Analysis (MCDA)
@@ -28,7 +28,7 @@ The analysis utilizes a geospatial MCDA framework to identify optimal co-locatio
 - Data Loading
     - Download vector data: town boundaries & land use cover, filtering for 4 ag categories
     - Identify the top 7 high-capacity ag land towns
-    - Catalog 1-meter resolution LiDAR-derived DEM data for top 7 towns - filtering for ag land only (to reduce the size of       the dataset to ensure it can be downloaded
+    - Catalog 1-meter resolution LiDAR-derived DEM data for top 7 towns - filtering for ag land only (to reduce the size of the dataset to ensure it can be downloaded
 - Spatial Pre-Processing 
     - Clip ag land vectors to town boundaries to calculate acreage
     - Create virtual raster (VRT) to treat the 106 individual LiDAR files as one elevation layer
@@ -36,11 +36,12 @@ The analysis utilizes a geospatial MCDA framework to identify optimal co-locatio
     - Calculate topographic slope in degrees from LiDAR VRT
     - Discretize slope into a 1-4 suitability scale (flat to unsuitable)
     - Perform zonal statistics to find the mean slope score (engineering/installation feasibility) for each municipality
+    - Convert land use data to SpatRaster and then mask slope data to ag boundaries (both need to be in raster form to perform this)
 - Multi-Criteria Decision Analysis
-    - Using a weighted overlay, the final suitability index is created. Three models are weighted on a scale of 1-4 with 1        being most suitable and 4 being unsuitable.
+    - Using a weighted overlay, the final suitability index is created. Three models are weighted on a scale of 1-4 with 1 being most suitable and 4 being unsuitable.
        1. Slope feasibility (35%) - indicates engineering costs of installation
        2. Land use reality (20%) - ag land cover types ranked based on ease of implementing solar while maintaining ag yield
-       3. Operational viability: looking at average plot size per town and total ag acreage per town. Weighted 60/40                  respectively. Area-weighted mean used to determine final town scores.
+       3. Operational viability: looking at average plot size per town and total ag acreage per town. Weighted 60/40 respectively. Area-weighted mean used to determine final town scores.
 - Visual Creation
     - Viz A: Strategy Analysis - shows each variable in a bubble map
     - Viz B: Spatial Distribution & Final Suitability Index - choropleth map
