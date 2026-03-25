@@ -1,0 +1,2 @@
+Land Use and Land Cover (2020)
+A statewide, seamless, vector-formatted geospatial dataset created under the direction of the RI Department of Administration, RI Division of Statewide Planning depicting 2020 land use and land cover ground conditions. For use by local, state, and federal government and made available to the general public under established RIGIS licensing procedures. As with any data, consult the metadata for more detailed descriptions.
