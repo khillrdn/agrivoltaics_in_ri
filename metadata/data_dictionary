@@ -1,0 +1,18 @@
+# Data Dictionary
+
+##Agricultural Context Variables
+  - NAME: The official municipality name as defined by RIGIS 1997.
+  - Descr_2020: The categorical land use description. Filtered to: Idle Agriculture, Cropland, Pasture, and Orchards/Nurseries.
+  - Acres_2020: The area of an individual agricultural polygon, calculated in US Survey Feet and converted to acres.
+  - total_viable_acreage: The sum of all agricultural parcels within a town that are greater than or equal to 2.0 acres.
+##MCDA Component Scores (Scale: 1.0 – 4.0)
+  - slope_score: The mean topographical suitability of a town's farmland.
+      -  Calculation: Zonal mean of reclassified 1m LiDAR slope degrees (0-3 degrees = 4; >15 degrees = 1).
+  - avg_land_use_score: An area-weighted average of the conflict-potential of the land.
+      - Weighting: Idle Agriculture (4), Pasture (3), Cropland (2), Orchards (1).
+  - combined_viability_score: A hybrid metric of economic feasibility.
+      - Logic: (Average Plot Size Score X 0.6) + (Total Town Capacity Score X 0.4).
+##Final Output Variable
+  - Total_Suitability: The final weighted index used for ranking.
+      - Equation: (Slope \times 0.35) + (Viability \times 0.45) + (LandCover \times 0.20)
+  - final_rank: The ordinal ranking (1-7) of the municipality based on the Total_Suitability score.
