@@ -17,9 +17,9 @@ What is the technical potential of agrivoltaics in Rhode Island as a dual-use st
 
 ## Data Sources
 All data pulled from Rhode Island GIS (https://www.rigis.org/)
-    - LiDAR-Derived Slope Data (2011): Raster 1-M elevation data 
-    - Land Use/Cover Data (2020): Vector dataset. Filtering for four compatible agriculture types (idle ag, cropland, pasture, and orchard/vineyard)
-    - Municipality Boundaries (1997): Vector data determining town lines
+- LiDAR-Derived Slope Data (2011): Raster 1-M elevation data
+- Land Use/Cover Data (2020): Vector dataset. Filtering for four compatible agriculture types (idle ag, cropland, pasture, and orchard/vineyard)
+- Municipality Boundaries (1997): Vector data determining town lines
 
 ## Methodology: Multi-Criteria Decision Analysis (MCDA)
 The analysis utilizes a geospatial MCDA framework to identify optimal co-location zones
