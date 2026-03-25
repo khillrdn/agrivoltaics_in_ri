@@ -51,3 +51,7 @@ The analysis utilizes a geospatial MCDA framework to identify optimal co-locatio
 
 ## Licenses
 For Educational Use Only: The contents of this project are for learning and practicing purposes only.
+
+## Contact
+Author: Kayleigh Hill | Email: khillrdn@gmail.com
+
