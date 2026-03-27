@@ -29,28 +29,17 @@ All data pulled from Rhode Island GIS (https://www.rigis.org/)
 ## Methodology: Multi-Criteria Decision Analysis (MCDA)
 The analysis utilizes a geospatial MCDA framework to identify optimal co-location zones
 
-## Process
-- Data Loading
-    - Download vector data: town boundaries & land use cover, filtering for 4 ag categories
-    - Identify the top 7 high-capacity ag land towns
-    - Catalog 1-meter resolution LiDAR-derived DEM data for top 7 towns - filtering for ag land only (to reduce the size of the dataset to ensure it can be downloaded
-- Spatial Pre-Processing 
-    - Clip ag land vectors to town boundaries to calculate acreage
-    - Create virtual raster (VRT) to treat the 106 individual LiDAR files as one elevation layer
-- Slope & Suitablity Modeling
-    - Calculate topographic slope in degrees from LiDAR VRT
-    - Discretize slope into a 1-4 suitability scale (flat to unsuitable)
-    - Perform zonal statistics to find the mean slope score (engineering/installation feasibility) for each municipality
-    - Convert land use data to SpatRaster and then mask slope data to ag boundaries (both need to be in raster form to perform this)
-- Multi-Criteria Decision Analysis
-    - Using a weighted overlay, the final suitability index is created. Three models are weighted on a scale of 1-4 with 1 being most suitable and 4 being unsuitable.
-       1. Slope feasibility (35%) - indicates engineering costs of installation
-       2. Land use reality (20%) - ag land cover types ranked based on ease of implementing solar while maintaining ag yield
-       3. Operational viability: looking at average plot size per town and total ag acreage per town. Weighted 60/40 respectively. Area-weighted mean used to determine final town scores.
-- Visual Creation
-    - Viz A: Strategy Analysis - shows each variable in a bubble map
-    - Viz B: Spatial Distribution & Final Suitability Index - choropleth map
-    - Viz C: Model Defense - stacked bar chart shows final score breakdown to show criteria that drove town rankings
+## File Organization
+- analysis/ - 
+- archive/ - Old data and scripts
+  - /archive_code/ - Old versions of scripts or "dead-end" ideas
+  - /archive_data/ - Old datasets used in old scripts but notused in final analysis
+- cleaning/ - cleaning, converting, reprojecting, etc. data
+- data/ - Cleaned data used for final analysis
+  - raw_data/ - original datasets - untouched
+- metadata/ - data dictionary, variable descriptions, and process/methodology description
+- outputs/ - Final tables, plots, charts, and maps
+- scripts/ - Exploritory R scripts from CoCalc and RStudio
 
 ## Built With
 - R in RStudio (packages: tidyverse, tidyterra, sf, terra, scales, & ggrepel)
