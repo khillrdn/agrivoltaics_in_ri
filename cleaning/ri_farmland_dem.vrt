@@ -1,0 +1,855 @@
+<VRTDataset rasterXSize="60643" rasterYSize="33560">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["NAD83 / Rhode Island (ftUS)",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",41.0833333333333],PARAMETER["central_meridian",-71.5],PARAMETER["scale_factor",0.99999375],PARAMETER["false_easting",328083.333333333],PARAMETER["false_northing",0],UNIT["US survey foot",0.304800609601219,AUTHORITY["EPSG","9003"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]</SRS>
+  <GeoTransform>  2.3994951649529560e+05,  3.2808333333333284e+00,  0.0000000000000000e+00,  2.1005214183185154e+05,  0.0000000000000000e+00, -3.2808333333333328e+00</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>-3.40282306073709653e+38</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0240001600_DEM/0240001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="0" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0250001600_DEM/0250001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="3048" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0250001700_DEM/0250001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="3048" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0250001800_DEM/0250001800_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="3048" yOff="6096" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0260001300_DEM/0260001300_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="6096" yOff="21336" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0260001400_DEM/0260001400_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="6096" yOff="18288" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0260001500_DEM/0260001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="6096" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0260001700_DEM/0260001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="6096" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0260001800_DEM/0260001800_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="6096" yOff="6096" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0270001200_DEM/0270001200_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="9144" yOff="24384" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0270001300_DEM/0270001300_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="9144" yOff="21336" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0270001400_DEM/0270001400_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="9144" yOff="18288" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0270001500_DEM/0270001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="9144" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0270001600_DEM/0270001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="9144" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0270001700_DEM/0270001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="9144" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0270001800_DEM/0270001800_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="9144" yOff="6096" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0280001300_DEM/0280001300_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="12192" yOff="21336" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0280001400_DEM/0280001400_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="12192" yOff="18288" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0280001500_DEM/0280001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="12192" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0280001600_DEM/0280001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="12192" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0280001700_DEM/0280001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="12192" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0280001800_DEM/0280001800_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="12192" yOff="6096" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0290001100_DEM/0290001100_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="15240" yOff="27432" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0290001300_DEM/0290001300_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="15240" yOff="21336" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0290001400_DEM/0290001400_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="15240" yOff="18288" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0290001500_DEM/0290001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="15240" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0290001600_DEM/0290001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="15240" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0290001700_DEM/0290001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="15240" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0290001800_DEM/0290001800_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="15240" yOff="6096" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0300001000_DEM/0300001000_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="18288" yOff="30480" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0300001100_DEM/0300001100_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="18288" yOff="27432" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0300001200_DEM/0300001200_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="18288" yOff="24384" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0300001300_DEM/0300001300_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="18288" yOff="21336" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0300001400_DEM/0300001400_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="18288" yOff="18288" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0300001500_DEM/0300001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="18288" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0300001600_DEM/0300001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="18288" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0300001700_DEM/0300001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="18288" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0300001800_DEM/0300001800_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="18288" yOff="6096" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0310001000_DEM/0310001000_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="21336" yOff="30480" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0310001100_DEM/0310001100_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="21336" yOff="27432" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0310001200_DEM/0310001200_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="21336" yOff="24384" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0310001300_DEM/0310001300_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="21336" yOff="21336" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0310001400_DEM/0310001400_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="21336" yOff="18288" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0310001500_DEM/0310001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="21336" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0310001600_DEM/0310001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="21336" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0310001700_DEM/0310001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="21336" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0310001800_DEM/0310001800_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="21336" yOff="6096" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0320001100_DEM/0320001100_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="24384" yOff="27432" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0320001200_DEM/0320001200_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="24384" yOff="24384" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0320001300_DEM/0320001300_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="24384" yOff="21336" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0320001400_DEM/0320001400_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="24384" yOff="18288" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0320001500_DEM/0320001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="24384" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0320001600_DEM/0320001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="24384" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0320001700_DEM/0320001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="24384" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0320001800_DEM/0320001800_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="24384" yOff="6096" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0330001200_DEM/0330001200_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="27432" yOff="24384" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0330001300_DEM/0330001300_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="27432" yOff="21336" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0330001400_DEM/0330001400_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="27432" yOff="18288" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0330001500_DEM/0330001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="27432" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0330001600_DEM/0330001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="27432" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0330001700_DEM/0330001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="27432" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0330001800_DEM/0330001800_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="27432" yOff="6096" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0330001900_DEM/0330001900_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="27432" yOff="3048" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0340001300_DEM/0340001300_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="30480" yOff="21336" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0340001400_DEM/0340001400_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="30480" yOff="18288" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0340001500_DEM/0340001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="30480" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0340001600_DEM/0340001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="30480" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0340001700_DEM/0340001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="30480" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0340001800_DEM/0340001800_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="30480" yOff="6096" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0340001900_DEM/0340001900_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="30480" yOff="3048" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0340002000_DEM/0340002000_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="30480" yOff="0" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0350001500_DEM/0350001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="33528" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0350001900_DEM/0350001900_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="33528" yOff="3048" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0350002000_DEM/0350002000_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="33528" yOff="0" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0360002000_DEM/0360002000_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="36576" yOff="0" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0370001800_DEM/0370001800_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="39624" yOff="6096" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0370001900_DEM/0370001900_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="39624" yOff="3048" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0370002000_DEM/0370002000_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="39624" yOff="0" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0380001500_DEM/0380001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="42672" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0380001600_DEM/0380001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="42672" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0380001700_DEM/0380001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="42672" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0380001800_DEM/0380001800_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="42672" yOff="6096" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0380001900_DEM/0380001900_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="42672" yOff="3048" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0380002000_DEM/0380002000_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="42672" yOff="0" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0390001400_DEM/0390001400_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="45720" yOff="18288" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0390001500_DEM/0390001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="45720" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0390001600_DEM/0390001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="45720" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0390001700_DEM/0390001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="45720" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0390001800_DEM/0390001800_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="45720" yOff="6096" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0390001900_DEM/0390001900_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="45720" yOff="3048" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0390002000_DEM/0390002000_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="45720" yOff="0" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0400001500_DEM/0400001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="48768" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0400001600_DEM/0400001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="48768" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0400001700_DEM/0400001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="48768" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0410001300_DEM/0410001300_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="51816" yOff="21336" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0410001400_DEM/0410001400_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="51816" yOff="18288" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0410001500_DEM/0410001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="51816" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0410001600_DEM/0410001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="51816" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0410001700_DEM/0410001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="51816" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0420001400_DEM/0420001400_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="54864" yOff="18288" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0420001500_DEM/0420001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="54864" yOff="15240" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0420001600_DEM/0420001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="54864" yOff="12192" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0420001700_DEM/0420001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3079" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="3079" ySize="3080" />
+      <DstRect xOff="54864" yOff="9144" xSize="3079" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0430001500_DEM/0430001500_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2731" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="2731" ySize="3080" />
+      <DstRect xOff="57912" yOff="15240" xSize="2731" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0430001600_DEM/0430001600_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2731" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="2731" ySize="3080" />
+      <DstRect xOff="57912" yOff="12192" xSize="2731" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">ri_elevation_dem/0430001700_DEM/0430001700_DEM.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2731" RasterYSize="3080" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="2731" ySize="3080" />
+      <DstRect xOff="57912" yOff="9144" xSize="2731" ySize="3080" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
