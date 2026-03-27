@@ -43,6 +43,7 @@ The analysis utilizes a geospatial MCDA framework to identify optimal co-locatio
 
 ## Built With
 - R in RStudio (packages: tidyverse, tidyterra, sf, terra, scales, & ggrepel)
+- Minimal CoCalc usage
 
 ## Licenses
 For Educational Use Only: The contents of this project are for learning and practicing purposes only.
