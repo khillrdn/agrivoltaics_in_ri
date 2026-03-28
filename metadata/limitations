@@ -1,0 +1,18 @@
+I identified three primary limitations in my research
+
+1. Temporal Data Gaps
+This analysis relies on 2011 LiDAR data for elevation and 2020 Land Use/Land Cover data. In the years since these datasets were published, significant land-use changes 
+(such as new residential subdivisions or forest regrowth) may have occurred, potentially overestimating the currently available  agricultural acreage.
+
+2. Grid Interconnection & Infrastructure
+This study evaluated surface suitability (slope and land type and land efficiency/capacity) but does 
+not account for subsurface or grid constraints. A site may be topographically perfect, but if it is miles 
+away from a high-voltage substation or a 3-phase power line, the "soft costs" of interconnection could make 
+utility-scale development economically unviable.
+
+3. Static Weighting vs. Stakeholder Values
+The MCDA weights (45% Viability, 35% Slope, 20% Land Cover) represent a best-guess
+heuristic. Different stakeholders 9such as a solar developer prioritizing profit versus a 
+conservationist prioritizing soil health - would weight these factors differently. 
+Using an Analytic Hierarchy Process (AHP) for future research to mathematically validate these weights through stakeholder
+interviews would be the logical next step.
