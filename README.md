@@ -40,8 +40,8 @@ Rhode Island’s agrivoltaic potential centers on Richmond and Little Compton, w
 - cleaning/ - cleaning, converting, reprojecting, etc. data
 - data/ - Cleaned data used for final analysis
   - raw_data/ - original datasets - untouched
-- metadata/ - data dictionary, variable descriptions, and process/methodology description
-- outputs/ - Final tables, plots, charts, and maps
+- metadata/ - data dictionary, variable descriptions, and process/methodology, results, and limitations description
+- outputs/ - Final tables, plots, charts, maps, and markdown file
 - scripts/ - Exploritory R scripts from CoCalc and RStudio
 
 ## Built With
