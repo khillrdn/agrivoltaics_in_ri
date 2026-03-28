@@ -14,11 +14,12 @@ The analysis utilizes a geospatial MCDA framework to identify optimal co-locatio
 - Discretize slope into a 1-4 suitability scale (flat to unsuitable)
 - Perform zonal statistics to find the mean slope score (engineering/installation feasibility) for each municipality
 - Convert land use data to SpatRaster and then mask slope data to ag boundaries (both need to be in raster form to perform this)
+- Agricultural land anaysis using parecel sizes and frequency to assess Utility Scale (efficiency) ratio and total capacity. 
 ## Multi-Criteria Decision Analysis
 - Using a weighted overlay, the final suitability index is created. Three models are weighted on a scale of 1-4 with 1 being most suitable and 4 being unsuitable.
 - Slope feasibility (35%) - indicates engineering costs of installation
 - Land use reality (20%) - ag land cover types ranked based on ease of implementing solar while maintaining ag yield
-- Land and parcel sizes (45%) - total acres of ag land per town and average parcel size by town
+- Land and parcel sizes (45%) - total acres of ag land per town and ratio of land that is utility-scale. 
 - Operational viability: looking at average plot size per town and total ag acreage per town. Weighted 60/40 respectively. Area-weighted mean used to determine final town scores.
 ## Visual Creation
 - Viz A: Strategy Analysis - shows each variable in a bubble map
