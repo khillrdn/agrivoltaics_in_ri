@@ -27,7 +27,10 @@ All data pulled from Rhode Island GIS (https://www.rigis.org/)
 - Municipality Boundaries (1997): Vector data determining town lines
 
 ## Methodology: Multi-Criteria Decision Analysis (MCDA)
-The analysis utilizes a geospatial MCDA framework to identify optimal co-location zones
+The analysis utilizes a geospatial MCDA framework to identify optimal co-location zones.
+
+## Key Findings
+Rhode Island’s agrivoltaic potential centers on Richmond and Little Compton, where flat topography and high-capacity acreage offer optimal solar-agricultural co-location. While South Kingstown leads in total acreage, Middletown and Richmond excel in operational efficiency. This analysis suggests policymakers prioritize adjusting municipal ordinances to incentivize dual-use solar, effectively leveraging renewable revenue to secure long-term farmland preservation across the state’s primary agricultural hubs.
 
 ## File Organization
 - analysis/ - 
