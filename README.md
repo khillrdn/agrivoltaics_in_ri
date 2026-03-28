@@ -1,7 +1,10 @@
 # The Technical Potential of Agrivoltaics in Rhode Island
 Yale Environmental Data Science Certificate | Capstone 2025-26
 
-## The Issue: 
+## Summary
+How can Rhode Island meet 100% renewable mandates while stopping the loss of farmland? By applying MCDA to analyze slope, parcel efficiency, and land cover on RIGIS land-use and LiDAR data, this study identifies Richmond and Little Compton as optimal hubs. This analysis suggests policymakers prioritize adjusting municipal ordinances to incentivize dual-use solar, effectively leveraging renewable revenue to secure long-term farmland preservation across the state’s primary agricultural hubs.
+
+## Project Rationale: 
 Rhode Island faces an acute challenge, with some of the nation's highest farmland costs ($20,000 per acre, USDA NASS) and a projected 13.7% decline in available farmland by 2040 (American Farmland Trust). At the same time, the state has set aggressive clean energy goals, legally bound to producing 100% renewable electricity by 2030 (Executive Order 20-01). 
 
 Agrivoltaics (AV), a form of dual-use farming, integrates solar energy generation and food production on the same land, maximizing land use and creating multiple revenue streams for farmers.
@@ -28,9 +31,6 @@ All data pulled from Rhode Island GIS (https://www.rigis.org/)
 
 ## Methodology: Multi-Criteria Decision Analysis (MCDA)
 The analysis utilizes a geospatial MCDA framework to identify optimal co-location zones.
-
-## Key Findings
-Rhode Island’s agrivoltaic potential centers on Richmond and Little Compton, where flat topography and high-capacity acreage offer optimal solar-agricultural co-location. While South Kingstown leads in total acreage, Middletown and Richmond excel in operational efficiency. This analysis suggests policymakers prioritize adjusting municipal ordinances to incentivize dual-use solar, effectively leveraging renewable revenue to secure long-term farmland preservation across the state’s primary agricultural hubs.
 
 ## File Organization
 - analysis/ - 
