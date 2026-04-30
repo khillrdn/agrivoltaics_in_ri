@@ -4,7 +4,7 @@ Yale Environmental Data Science Certificate | Capstone 2025-26
 ## Summary
 How can Rhode Island meet 100% renewable mandates while stopping the loss of farmland? By applying MCDA to analyze slope, parcel efficiency, and land cover on RIGIS land-use and LiDAR data, this study identifies Richmond and Little Compton as optimal hubs. This analysis suggests policymakers prioritize adjusting municipal ordinances to incentivize dual-use solar, effectively leveraging renewable revenue to secure long-term farmland preservation across the state’s primary agricultural hubs.
 
-![Project Screenshot](desktop/Chlorepth_Map_Yale.png)
+![Project Screenshot](outputs/Chlorepth_Map_Yale.png)
 
 ## Project Rationale: 
 Rhode Island faces an acute challenge, with some of the nation's highest farmland costs ($20,000 per acre, USDA NASS) and a projected 13.7% decline in available farmland by 2040 (American Farmland Trust). At the same time, the state has set aggressive clean energy goals, legally bound to producing 100% renewable electricity by 2030 (Executive Order 20-01). 
